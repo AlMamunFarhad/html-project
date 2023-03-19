@@ -1,0 +1,616 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+/* ===================== nav ==================================*/
+.top-section .bgcolor {
+  background-color: #333366;
+  height: 6.25rem;
+}
+.top-section .bgcolor .top-main p {
+  font-size: 1.563rem;
+  padding: 2rem 0;
+}
+@media screen and (max-width: 992px) {
+  .top-section .bgcolor .top-main p {
+    font-size: 1.3rem;
+    padding: 2rem 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .top-section .bgcolor .top-main p {
+    font-size: 1rem;
+    padding: 2.5rem 0;
+  }
+}
+
+/* ===================== nav End==================================*/
+/*========================== hero section ======================== */
+.hero-section .hero-image {
+  background-image: url(../images/rectangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-section .row {
+  padding-top: 3rem;
+  padding-bottom: 10rem;
+}
+.hero-section .home-content .logo-img img {
+  width: 70%;
+  margin-left: -25px;
+}
+.hero-section .home-content .hero-main-content h1 {
+  font-size: 2.5rem;
+}
+.hero-section .home-content .hero-main-content h3 {
+  font-size: 1.375rem;
+}
+.hero-section .home-content .hero-btn .btnleft {
+  width: 19.063rem;
+  font-size: 1.875rem;
+  height: 3.938rem;
+}
+.hero-section .home-content .hero-btn .btnright {
+  font-size: 1.875rem;
+  height: 3.938rem;
+}
+.hero-section .home-content .valuable img {
+  margin-top: -2rem;
+}
+.hero-section .row .col-md-6 .hbimg {
+  padding-top: 9rem;
+}
+.hero-section .home-content .list-unstyled li span i {
+  color: #00ff99;
+  font-size: 20px;
+}
+.hero-section .home-content .list-unstyled li {
+  font-size: 1.375rem;
+}
+
+.hero-section .home-content .hero-btn .btnright {
+  width: 15.625rem;
+  font-size: 1.875rem;
+  margin-left: 3.5rem;
+}
+/*========================== hero section @media ======================== */
+@media screen and (max-width: 992px) {
+  .hero-section .home-content .hero-main-content h1 {
+    font-size: 1.8rem;
+  }
+  .hero-section .home-content .hero-main-content h4 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  .hero-section .home-content .list-unstyled li {
+    font-size: 1rem;
+    display: flex;
+  }
+  .hero-section .home-content .logo-img img {
+    width: 90%;
+    margin-left: -15px;
+  }
+  .hero-section .home-content .valuable img {
+    width: 95%;
+  }
+  .hero-section .home-content .hero-btn .btnleft {
+    width: 12.063rem;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    height: 3.5rem;
+  }
+  .hero-section .home-content .hero-btn .btnright {
+    width: 12.063rem;
+    font-size: 1.2rem;
+    padding: 0.8rem 0;
+    height: 3.5rem;
+    margin-left: 0 !important;
+    margin-top: 1.5rem;
+  }
+  .hero-section .row .col-md-6 .hbimg {
+    padding-top: 3.6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero-section .home-content .valuable img {
+    width: 85%;
+  }
+  .hero-section .home-content .hero-btn .btnright {
+    margin-top: 1rem;
+    /* margin-left: 1rem !important; */
+  }
+  .hero-section .home-content .hero-btn {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/*==========================hero section End======================== */
+/*==========================second section========================== */
+section .bg2 {
+  background-image: url(../images/secoundbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  background-position: center;
+}
+section .built-second-section .built-main {
+  padding-top: 7rem;
+}
+section .built-second-section .built-main h3 {
+  font-size: 2.3rem;
+}
+section .built-second-section .built-main a {
+  width: 16.625rem;
+  font-size: 1.875rem;
+  margin-top: 2.5rem;
+  height: 3.938rem;
+}
+@media screen and (max-width: 992px) {
+  section .built-second-section .built-main h3 {
+    font-size: 1.2rem;
+  }
+  section .built-second-section .built-main a {
+    font-size: 1.2rem;
+    height: 3.5rem;
+    padding: 0.8rem 0;
+  }
+  section .built-second-section .built-main {
+    margin-bottom: 5rem;
+  }
+  section .bg2 {
+    background-image: url(../images/secoundbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-position: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  section .built-second-section .built-main h3 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  section .built-second-section .built-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section .built-second-section .built-main a {
+    width: 12.625rem;
+    margin-bottom: 4rem;
+  }
+  section .bg2 {
+    background: none;
+  }
+}
+
+/*==================== second section End ================= */
+/*======================= 3 third Section================= */
+section.comprehensive {
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section .providehome {
+  background: url(../images/group\ 7.png);
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+}
+section .providehome .container {
+  margin-top: 9rem;
+  margin-bottom: 3.5rem;
+}
+.providehome .provid-content .back-images {
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+.providehome .back-images .provid-main-content h3 {
+  font-size: 2.25rem;
+}
+.providehome .back-images .provid-main-content p {
+  font-size: 1.375rem;
+}
+.comprehensive .row-cols-1 .side-image {
+  margin-top: 4rem;
+}
+@media screen and (max-width: 992px) {
+  section .providehome {
+    background: url(../images/group\ 7.png);
+    background-repeat: no-repeat;
+    background-size: 115% 100%;
+  }
+  .providehome .back-images .provid-main-content h3 {
+    font-size: 1.5rem;
+  }
+  .providehome .back-images .provid-main-content p {
+    font-size: 1rem;
+  }
+  section .providehome .container {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .comprehensive .row-cols-1 .side-image {
+    margin-top: -7rem;
+    padding-bottom: 7rem;
+    padding-top: 1rem;
+  }
+  .providehome .back-images .provid-main-content {
+    text-align: center;
+  }
+  .providehome .back-images .provid-main-content h3 {
+    font-size: 1.4rem;
+  }
+  .providehome .back-images .provid-main-content p {
+    font-size: 0.9rem;
+    padding-bottom: 1.5rem;
+  }
+}
+/*======================= 3 third Section 2 ================= */
+.providehome2 .image-back2 {
+  background: url(../images/frame2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50% 100%;
+}
+.providehome2 .image-back2 .container {
+  margin-bottom: 4.5rem;
+}
+.providehome2 .image-back2 .provid-main-content2 {
+  padding-top: 5.4rem;
+  padding-bottom: 7rem;
+  padding-left: 3.75rem;
+}
+.providehome2 .image-back2 .provid-main-content2 h1 {
+  font-size: 2.25rem;
+}
+.providehome2 .image-back2 .provid-main-content2 p {
+  font-size: 1.375rem;
+  padding-bottom: 5.5rem;
+}
+@media screen and (max-width: 992px) {
+  .providehome2 .image-back2 {
+    background: url(../images/frame2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 115% 100%;
+  }
+  .providehome2 .image-back2 .provid-main-content2 h1 {
+    font-size: 1.7rem;
+  }
+  .providehome2 .image-back2 .provid-main-content2 p {
+    font-size: 1rem;
+    padding-bottom: 0;
+  }
+  .providehome2 .image-back2 .container {
+    margin-bottom: 0;
+  }
+  .providehome2 .image-back2 {
+    padding-top: 4.4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .providehome2 .image-back2 .side-image2 img {
+    width: 100%;
+    padding-top: 1rem;
+  }
+  .providehome2 .image-back2 .provid-main-content2 {
+    margin-top: -0.5rem;
+    text-align: center;
+    padding-left: 0;
+  }
+  .providehome2 .image-back2 .provid-main-content2 h1 {
+    font-size: 1.4rem;
+  }
+  .providehome2 .image-back2 .provid-main-content2 p {
+    font-size: 0.9rem;
+  }
+}
+/*=======================3 third Section 3================= */
+.providehome3 .back-image3 {
+  background: url(../images/frame3.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 50% 100%;
+}
+.providehome3 .back-image3 .provide-main-content3 {
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+.providehome3 .back-image3 .provide-main-content3 h1 {
+  font-size: 2.25rem;
+}
+.providehome3 .back-image3 .provide-main-content3 p {
+  font-size: 1.375rem;
+  padding-bottom: 3rem;
+}
+@media screen and (max-width: 992px) {
+  .providehome3 .back-image3 {
+    background: url(../images/frame3.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 115% 100%;
+  }
+  .providehome3 .back-image3 .provide-main-content3 h1 {
+    font-size: 1.7rem;
+  }
+  .providehome3 .back-image3 .provide-main-content3 p {
+    font-size: 1rem;
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .providehome3 .side-image3 img {
+    width: 100%;
+    margin-top: -3.5rem;
+    margin-bottom: 5rem;
+  }
+  .providehome3 .back-image3 .provide-main-content3 {
+    text-align: center;
+  }
+  .providehome3 .back-image3 .provide-main-content3 h1 {
+    font-size: 1.4rem;
+  }
+  .providehome3 .back-image3 .provide-main-content3 p {
+    font-size: 0.9rem;
+  }
+}
+/*=======================btn========================= */
+section .container .demo-btn {
+  width: 100%;
+}
+
+section .container .demo-btn .bg-warning {
+  width: 21.063rem;
+  font-size: 1.875rem;
+  margin-top: 10rem;
+  margin-bottom: 7rem;
+  height: 4rem;
+}
+@media screen and (max-width: 992px) {
+  section .container .demo-btn .bg-warning {
+    width: 17rem;
+    font-size: 1.2rem;
+    height: 3.5rem;
+    padding: 0.8rem 0;
+    margin-top: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  section .container .demo-btn .bg-warning {
+    width: 17rem;
+    font-size: 1.3rem;
+    padding: 0.8rem 0;
+  }
+}
+/*=======================btn End============================*/
+/*=======================3 third Section End=================*/
+/*=======================personalized-section=================*/
+section .personalized-section {
+  background-image: url("../images/group 6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 46.875rem;
+}
+section .personalized-section .personalized-content-section h1 {
+  padding-top: 6.4rem;
+  font-size: 2.5rem;
+}
+section .personalized-section .personalized-content-section p {
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+  font-size: 1rem;
+}
+@media screen and (max-width: 992px) {
+  section .personalized-section .personalized-content-section h1 {
+    margin-top: -2.9rem !important;
+    font-size: 2rem;
+  }
+  section .personalized-section .personalized-content-section p {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  section .personalized-section .personalized-content-section h1 {
+    margin-top: -5rem !important;
+    font-size: 2rem;
+  }
+  section .personalized-section .personalized-content-section p {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  section .personalized-section .personalized-content-section h1 {
+    font-size: 1.5rem;
+  }
+}
+/*=======================personalized-section End================= */
+/*=================================card=========================== */
+section.cardsection {
+  margin-top: -25rem;
+}
+section .container .card-1 {
+  background-image: linear-gradient(#f3f5fe, #ffffff);
+}
+section .container .card-2 {
+  background-image: linear-gradient(#f3f5fe, #ffffff);
+}
+section .container .card-1 .card-body h5 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+section .container .card-1 .card-icon p {
+  font-size: 1.5rem;
+  line-height: 2.625rem;
+}
+section .container .col-md-6 .card-2 .card-body h5 {
+  font-size: 2.5rem;
+}
+section .container .card-2 .card-body p {
+  font-size: 1.5rem;
+  line-height: 2.625rem;
+}
+@media screen and (max-width: 992px) {
+  section .container .card-1 .card-body h5 {
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+  section .container .card-1 .card-icon p {
+    font-size: 0.8rem;
+    line-height: 2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  section .container .col-md-6 .card-2 .card-body h5 {
+    font-size: 1.5rem;
+    padding-top: 14px !important;
+  }
+  section .container .card-2 .card-icon p {
+    font-size: 0.8rem;
+    line-height: 2rem;
+  }
+  section .container .col-md-6 .card-2 {
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  section .container .col-md-6 .card-2 {
+    margin-bottom: 3rem;
+  }
+}
+/*=================================card End=========================== */
+/*=================================explore=============================*/
+section .explore {
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 7rem;
+}
+section .explore .col .start-building {
+  padding: 18.5rem 0;
+}
+
+section .explore .start-building h1 {
+  font-size: 3.125rem;
+}
+section .explore .start-building h1::before {
+  content: "";
+  width: 137px;
+  border-bottom: 11px solid #6699cc;
+  position: absolute;
+  padding-top: 9rem;
+}
+section .explore .start-building p {
+  font-size: 1.5rem;
+}
+section .explore .start-building a {
+  font-size: 1.875rem;
+  padding: 0.5rem 0;
+  height: 3.938rem;
+  width: 28.188rem;
+}
+@media screen and (max-width: 992px) {
+  section .explore .start-building h1 {
+    font-size: 2.2rem;
+  }
+  section .explore .start-building h1::before {
+    padding-top: 6.5rem;
+  }
+  section .explore .start-building p {
+    font-size: 1rem;
+  }
+  section .explore .start-building a {
+    font-size: 1.2rem;
+    height: 3.5rem;
+    width: 21rem;
+    padding: 1rem 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  section .explore .start-building p {
+    font-size: 1rem;
+  }
+  section .explore .start-building h1 {
+    font-size: 2rem;
+  }
+  section .explore .start-building h1::before {
+    padding-top: 9rem;
+  }
+  section .explore .start-building a {
+    font-size: 1rem;
+    padding: 1rem 0 !important;
+    width: 14rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  section .explore .start-building h1::before {
+    padding-top: 6rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  section .explore .start-building h1::before {
+    padding-top: 8.5rem;
+  }
+}
+/*  ===================================explore End========================== */
+/*  ====================================Form================================ */
+section .homescout h1 {
+  font-size: 2.5rem;
+}
+section .homescout .col input {
+  padding: 0.9rem;
+  border-radius: 0.2rem;
+}
+section .homescout label {
+  font-size: 0.938rem;
+}
+section .homescout .clicking {
+  font-size: 0.938rem;
+}
+section .homescout .clicking a {
+  padding: 0.7rem 2rem;
+  border-radius: 0.2rem;
+}
+@media screen and (max-width: 992px) {
+  section .homescout h1 {
+    font-size: 2rem;
+  }
+  section .homescout .col input {
+    margin-bottom: 0.5rem;
+  }
+}
+/*============================== Form END========================= */
+/*================================ footer========================= */
+.footer-section {
+  background-color: #333366;
+}
+.footer-section .row .footer h6 {
+  padding: 30px 0px;
+}
+.footer h6 {
+  font-size: 1.7rem !important;
+}
+@media screen and (max-width: 992px) {
+  .footer h6 {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer-section .row .footer h6 {
+    font-size: 0.7rem !important;
+  }
+}
+/*==================================== footer End================================ */
+
+/* --------------------------------------------------------------------------------------------End----------------------------------------------------------------------------- */
